@@ -4,7 +4,7 @@ export class User {
         public email:string,
         public phone:number,
         public topic:string,
-        public telePreference:string,
+        public timePreference:string,
         public subscribe:boolean
     ){
 
