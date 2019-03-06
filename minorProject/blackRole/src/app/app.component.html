@@ -1,0 +1,8 @@
+<body>
+<app-header (featureSelect)="selectNavigation($event)"></app-header>
+<app-home *ngIf="featureSend=='home'"></app-home>
+<app-about *ngIf="featureSend=='about'" ></app-about>
+<app-project *ngIf="featureSend=='project'"></app-project>
+<app-sign-up></app-sign-up>
+<app-contact  *ngIf="featureSend=='contact'"></app-contact>
+</body>
