@@ -7,10 +7,10 @@ import { FormBuilder} from '@angular/forms'
 })
 export class LoginComponent implements OnInit {
 
-  constructor( private fb:FormBuilder) { }
+  constructor(private fb:FormBuilder) { }
    loginForm=this.fb.group({
-     name:[''],
-     password:[''],
+     name:['ccccc'],
+     password:['cc'],
      remberMe:[true],
    })
   ngOnInit() {
